@@ -7,11 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/AbdulRehman1991/flask-lab-app-Jenkins'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
