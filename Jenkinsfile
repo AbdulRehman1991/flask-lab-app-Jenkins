@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-username/your-flask-repo.git'
+                git 'https://github.com/AbdulRehman1991/flask-lab-app-Jenkins'
             }
         }
 
