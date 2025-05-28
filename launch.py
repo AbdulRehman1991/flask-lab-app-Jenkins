@@ -1,4 +1,4 @@
-from flask import Flask # Web app python library
+from flask import Flask # Web app python
 import socket
 
 helloworld = Flask(__name__)
